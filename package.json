@@ -1,0 +1,22 @@
+{
+  "name": "learning-express",
+  "version": "1.0.0",
+  "description": "This is a repository for the purposes of learning, and playing around with: - Node.js - Express.js - Cypress testing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samworrall/Learning-Express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samworrall/Learning-Express/issues"
+  },
+  "homepage": "https://github.com/samworrall/Learning-Express#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
