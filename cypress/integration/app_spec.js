@@ -20,4 +20,16 @@ describe('App', function() {
     cy.get('form').find('input').contains('Add name').click();
     cy.contains('Sam').should('be.visible');
   });
+
+  it('Should update the list of names', function() {
+    cy.get('form').find('input').contains('Add name').click();
+    cy.get('.text')
+      .type('Sam')
+    cy.get('form').find('input').contains('Add name').click();
+    cy.get('form').find('input').contains('Add name').click();
+    cy.get('.text')
+      .type('Bob')
+    cy.get('form').find('input').contains('Add name').click();
+    cy.contains('Sam,Bob').should('be.visible');
+  });
 });
