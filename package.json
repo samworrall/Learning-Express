@@ -18,6 +18,7 @@
   "homepage": "https://github.com/samworrall/Learning-Express#readme",
   "dependencies": {
     "cypress": "^2.1.0",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "hoek": "^5.0.3"
   }
 }
